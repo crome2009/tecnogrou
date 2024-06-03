@@ -1,30 +1,6 @@
 # tecnogrou
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TECNOGROUP</title>
-  <link rel="stylesheet" href="style.css">
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const menu = document.querySelector('.header__menu');
-      menu.addEventListener('click', function(event) {
-        if (event.target.tagName === 'A') {
-          event.preventDefault();
-          const targetId = event.target.getAttribute('href').substring(1);
-          const targetSection = document.getElementById(targetId);
-          if (targetSection) {
-            window.scrollTo({
-              top: targetSection.offsetTop,
-              behavior: 'smooth'
-            });
-          }
-        }
-      });
-    });
-  </script>
-</head>
 <body>
 <header class="header">
   <div class="header__content">
