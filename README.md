@@ -50,8 +50,6 @@
   <video src="D:\TECNOGROUP .2.mp4" autoplay muted loop playsinline controls></video>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
 
 <script>
   let tl = gsap.timeline({
