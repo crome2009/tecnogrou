@@ -70,35 +70,7 @@ Ecco il codice HTML completo, strutturato e formattato correttamente, che dovreb
 
 <br><br><br><br>
 
-<div class="container-video">
-  <video src="D:\TECNOGROUP .2.mp4" autoplay muted loop playsinline controls></video>
-</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
-
-<script>
-  let tl = gsap.timeline({
-    scrollTrigger:{
-      trigger: ".container-video",
-      start: "top center",
-      end: "bottom center",
-      scrub: true,
-    }
-  });
-
-  tl.to(".container-video", {
-    opacity: 1,
-    width: "80%"
-  });
-</script>
-
-<script>
-  let item = document.querySelector('.icon-hamburger');
-  item.addEventListener("click", function() {
-    document.body.classList.toggle('menu-open');
-  });
-</script>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
