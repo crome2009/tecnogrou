@@ -1,7 +1,5 @@
-Ecco il codice HTML completo, strutturato e formattato correttamente, che dovrebbe funzionare bene e apparire graficamente piacevole su GitHub:
 
-```html
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
