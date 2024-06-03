@@ -112,5 +112,46 @@
         <img src="https://www.bing.com/th?id=OPEC.LH4UuI2N1KZzyw474C474&o=5&pid=21.1&w=160&h=160&qlt=100&dpr=1&c=8" alt="Product Image">
         <div class="title"><h4>Box doccia 70x100 doppio scorrevole altezza 190 Kamalu-1000</h4></div>
         <div class="price"><h4>€ 197,45</h4></div>
-        <button class="button"
+        <button class="button"Eccoti la parte mancante:
+
+```html
+        onclick="addToCart('Box doccia doppio scorrevole', 197.45)">Aggiungi al carrello</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br>
+
+<div class="grid">
+  <div class="col-50" id="contatti">
+    <div style="text-align: justify;">
+      <h1>CONTATTI</h1>
+      <p>Puoi contattarci tramite i seguenti dettagli:</p>
+      <ul>
+        <li><strong>Indirizzo:</strong> Via Roma, 123 - Legnano (MI)</li>
+        <li><strong>Telefono:</strong> +39 02 1234567</li>
+        <li><strong>Email:</strong> info@tecno-group.it</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br>
+
+<footer class="footer">
+  <div class="footer__content">
+    <p>&copy; 2024 TECNOGROUP. Tutti i diritti riservati.</p>
+    <ul class="footer__menu">
+      <li><a href="#">Termini e condizioni</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
+```
+
+Assicurati di sostituire le informazioni di contatto e gli URL delle immagini con quelli reali dell'azienda. Se hai bisogno di ulteriori modifiche o hai altre domande, chiedi pure!
 
